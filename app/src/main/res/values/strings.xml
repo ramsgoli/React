@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">React</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play_button_text">PLAY</string>
+    <string name="help_button_text">HELP</string>
+    <string name="title_activity_help_page">HelpPage</string>
+    <string name="title_activity_countdown_page">CountdownPage</string>
+    <string name="title_activity_game_page">GamePage</string>
+    <string name="title_activity_results_page">ResultsPage</string>
+</resources>

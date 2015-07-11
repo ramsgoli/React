@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#ff2ec9d3"
+    android:clickable="true">
+
+    <TextView android:text="REACT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:id="@+id/react_logo_main"
+        android:textColor="#ff2898a2"
+        android:shadowColor="#ff1e5a62"
+        android:shadowRadius="3.0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_button_text"
+        android:textSize="30sp"
+        android:background="@null"
+        android:id="@+id/main_play_text_button"
+        android:textColor="#ff2898a2"
+        android:shadowColor="#ff1e5a62"
+        android:shadowRadius="3.0"
+        android:clickable="true"
+        android:onClick="playButtonClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_button_text"
+        android:textSize="30sp"
+        android:background="@null"
+        android:id="@+id/help_button"
+        android:textColor="#ff2898a2"
+        android:shadowColor="#ff1e5a62"
+        android:shadowRadius="3.0"
+        android:clickable="true"
+        android:onClick="helpButtonClick"
+        android:layout_marginTop="42dp"
+        android:layout_alignTop="@+id/main_play_text_button"
+        android:layout_alignRight="@+id/main_play_text_button"
+        android:layout_alignEnd="@+id/main_play_text_button" />
+
+</RelativeLayout>
