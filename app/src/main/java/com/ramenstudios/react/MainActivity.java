@@ -17,7 +17,7 @@ import android.widget.Toast;
 public class MainActivity extends ActionBarActivity {
 
 
-    private String myTag = "Ram's Tag";
+    private String myTag = "Ram's Tag is Cool";
     private String ActivityName = "Main Activity";
 
     @Override
@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
         PlayButtonAnimation.setRepeatMode(Animation.REVERSE);
         animatedPlayButton.startAnimation(PlayButtonAnimation);
     }
-    
+
 
     public void playButtonClick(View view) {
         /*
