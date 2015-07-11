@@ -44,8 +44,7 @@ public class MainActivity extends ActionBarActivity {
         PlayButtonAnimation.setRepeatMode(Animation.REVERSE);
         animatedPlayButton.startAnimation(PlayButtonAnimation);
     }
-
-
+    
 
     public void playButtonClick(View view) {
         /*
