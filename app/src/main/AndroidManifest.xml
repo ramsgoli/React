@@ -40,7 +40,11 @@
             android:name=".ResultsPage"
             android:label="@string/title_activity_results_page"
             android:screenOrientation="portrait"
-            android:theme="@style/noAnimTheme">
+            android:theme="@style/noAnimTheme" >
+        </activity>
+        <activity
+            android:name=".GamePageVersion2"
+            android:label="@string/title_activity_game_page_version2" >
         </activity>
     </application>
 
